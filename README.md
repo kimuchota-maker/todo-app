@@ -55,6 +55,9 @@ uvicorn main:app --reload
 
 https:127.0.0.1:8000
 
+## 公開URL
+
+https://todo-app-u4zn.onrender.com
 
 ## 今後追加したい機能
 - タスクの編集
