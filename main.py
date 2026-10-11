@@ -6,6 +6,7 @@ from pydantic import BaseModel
 from sqlalchemy.orm import Session
 
 from database import SessionLocal, engine
+print("使用DBの種類:", engine.url.drivername)
 from models import Task, Base
 from fastapi.staticfiles import StaticFiles
 
